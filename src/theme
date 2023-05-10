@@ -3,6 +3,7 @@ import { extendTheme } from '@chakra-ui/react';
 const theme = extendTheme({
   fonts: {
     sans: `'Source Sans Pro', sans-serif`,
+    open_sans: `'Open Sans', sans-serif`,
   },
 })
 

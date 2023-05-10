@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Image, Text, Flex, Spacer, Button, Container, Heading } from '@chakra-ui/react'
+import { Box, Image, Text, Flex, Spacer, Button, Container, Heading } from '@chakra-ui/react';
 import logo from '../assets/Logo.svg';
 import pizza from '../assets/Home-pizza.png';
 import design from '../assets/Design-pizza.svg';
