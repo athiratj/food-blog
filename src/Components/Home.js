@@ -12,7 +12,7 @@ const Home = () => {
     return(
         <Box bg="#FFFFFF" bgImage={`url(${pizza})`} bgPos="right" bgRepeat="no-repeat" 
             bgSize={isNotMobile ? "50% 100%" : "100% 100%"} 
-            h={isNotMobile ? "804px": "413px"}>
+            h={isNotMobile ? "804px": "413px"} maxW="100vw">
             <Flex justifyContent="space-between">
                 <Box ml="100px" mt="33px">
                     <Image w="107px" h="83px" src={logo} alt='logo' display={isNotMobile ? "block" : "none"}/>

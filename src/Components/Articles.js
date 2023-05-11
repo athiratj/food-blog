@@ -1,5 +1,5 @@
 
-import { SimpleGrid, Box, Card, CardHeader, CardBody, CardFooter, Image, Text, Button, Heading } from "@chakra-ui/react";
+import { SimpleGrid, Box, Card, CardHeader, CardBody, CardFooter, Image, Text, Button, Heading, useMediaQuery } from "@chakra-ui/react";
 import React from "react";
 import meal1 from '../assets/meal1.png';
 import meal2 from '../assets/meal2.png';
@@ -10,44 +10,109 @@ import meal6 from '../assets/meal6.png';
 
 const Articles = () => {
 
+    const [isNotMobile] = useMediaQuery("(min-width:600px)");
+
     return(
-        <Box my="158px" mx="108px" h="680px">
-            <Heading color="#0E2368" fontSize="56px" fontWeight="600" fontFamily="sans-serif" lineHeight="42px" letterSpacing="4%">Latest Articles</Heading>
-            <SimpleGrid spacing={4} mt="82px" templateColumns='repeat(auto-fill, minmax(400px, 3fr))'>
-                <Card w="381px" h="554px" border="1px solid #93A2D361" borderRadius="21px">
-                    <CardHeader>
-                        <Image p="27px" src={meal1} alt="meal1"></Image>
+        <Box minW="375px" my={isNotMobile ? "158px" : "132px"} 
+            px={isNotMobile ? "108px": "52px"} 
+            h={isNotMobile ? "680px" : "1783"} 
+            textAlign={isNotMobile ? "left" : "center"}>
+            <Heading color="#0E2368" fontWeight="600" fontFamily="sans-serif" letterSpacing="4%" 
+                fontSize={isNotMobile ? "56px" : "28px"}
+                lineHeight={isNotMobile ? "42px" : "54px"}
+                w={isNotMobile ? "100%" : "271px"}>Latest Articles</Heading>
+            <SimpleGrid spacingX='41px' spacingY='61px' minChildWidth='271px' w={isNotMobile ? "100%" : "271px"}
+            colums={isNotMobile ? 3 : 1} 
+            // columns={{sm: 1, md: 3}} 
+            mt={isNotMobile ? "82px": "23px"}>
+                <Card w={isNotMobile ? "381px" : "271px"} 
+                    h={isNotMobile ? "554px" : "484px"}  
+                    borderRadius="21px" border="1px solid #93A2D361">
+                    <CardHeader px={isNotMobile ? "27px" : "33px"} py={isNotMobile ? "27px" : "40px"}>
+                        <Image src={meal1} alt="meal1"></Image>
                     </CardHeader>
-                    <CardBody mx="43px" mb="27.41px" w="295px" overflow="hidden">
-                        <Heading color="#0E2368" mb="14px" fontSize="21px" fontWeight="700" lineHeight="27px">Grilled Tomatoes at Home</Heading>
-                        <Text fontSize="15px" fontWeight="400" lineHeight="27px">PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...</Text>
+                    <CardBody mb="27.41px" overflow="hidden"
+                    mx={isNotMobile ? "43px": "auto"} 
+                    w={isNotMobile ? "295px" : "236px"}>
+                        <Heading color="#0E2368" fontWeight="700" 
+                            mb={isNotMobile ? "14px": "6px"}
+                            fontSize={isNotMobile ? "21px" : "16px"}
+                            lineHeight={isNotMobile ? "27px" : "35px"}
+                            textAlign={isNotMobile ? "justify" : "center"}
+                            letterSpacing="5%">Grilled Tomatoes at Home</Heading>
+                        <Text fontWeight="400"
+                            px={isNotMobile ? "0px": "20px"}
+                            fontSize={isNotMobile ? "15px" : "12px"} 
+                            lineHeight={isNotMobile ? "27px" : "22px"}
+                            letterSpacing="-2%">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley....</Text>
                     </CardBody>
-                    <CardFooter ml="43px" mb="40px" p="3px, 26px, 3px, 26px" w="295px">
-                        <Button borderRadius="21px" w="131px" h="42px" variant="outline" border="1px solid #424961">Read More</Button>
+                    <CardFooter ml={isNotMobile ? "43px" : "0"} mb="40px" w={isNotMobile ? "295px" : "271px"} px={isNotMobile ? "0" : "76px"}>
+                        <Button variant="outline" 
+                        borderRadius={isNotMobile ? "21px" : "27px"} 
+                        w={isNotMobile ? "131px" : "118px"} 
+                        h={isNotMobile ? "42px" : "26px"} 
+                        border={isNotMobile ? "1px solid #424961" : "2px solid #424961"}>
+                            <Text fontWeight="600" fontSize={isNotMobile ? "16px" : "11px"} lineHeight={isNotMobile ? "35px" : "46px"}>Read More</Text></Button>
                     </CardFooter>
                 </Card>
-                <Card w="381px" h="554px" border="1px solid #93A2D361" borderRadius="21px">
-                    <CardHeader>
-                        <Image p="27px" src={meal1} alt="meal1"></Image>
+                <Card w={isNotMobile ? "381px" : "271px"} 
+                    h={isNotMobile ? "554px" : "484px"}  
+                    borderRadius="21px" border="1px solid #93A2D361">
+                    <CardHeader px={isNotMobile ? "27px" : "33px"} py={isNotMobile ? "27px" : "40px"}>
+                        <Image src={meal1} alt="meal1"></Image>
                     </CardHeader>
-                    <CardBody mx="43px" mb="27.41px" w="295px" overflow="hidden">
-                        <Heading color="#0E2368" mb="14px" fontSize="21px" fontWeight="700" lineHeight="27px">Grilled Tomatoes at Home</Heading>
-                        <Text fontSize="15px" fontWeight="400" lineHeight="27px">PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...</Text>
+                    <CardBody mb="27.41px" overflow="hidden"
+                    mx={isNotMobile ? "43px": "auto"} 
+                    w={isNotMobile ? "295px" : "236px"}>
+                        <Heading color="#0E2368" fontWeight="700" 
+                            mb={isNotMobile ? "14px": "6px"}
+                            fontSize={isNotMobile ? "21px" : "16px"}
+                            lineHeight={isNotMobile ? "27px" : "35px"}
+                            textAlign={isNotMobile ? "justify" : "center"}
+                            letterSpacing="5%">Grilled Tomatoes at Home</Heading>
+                        <Text fontWeight="400"
+                            px={isNotMobile ? "0px": "20px"}
+                            fontSize={isNotMobile ? "15px" : "12px"} 
+                            lineHeight={isNotMobile ? "27px" : "22px"}
+                            letterSpacing="-2%">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley....</Text>
                     </CardBody>
-                    <CardFooter ml="43px" mb="40px" p="3px, 26px, 3px, 26px" w="295px">
-                        <Button borderRadius="21px" w="131px" h="42px" variant="outline" border="1px solid #424961">Read More</Button>
+                    <CardFooter ml={isNotMobile ? "43px" : "0"} mb="40px" w={isNotMobile ? "295px" : "271px"} px={isNotMobile ? "0" : "76px"}>
+                        <Button variant="outline" 
+                        borderRadius={isNotMobile ? "21px" : "27px"} 
+                        w={isNotMobile ? "131px" : "118px"} 
+                        h={isNotMobile ? "42px" : "26px"} 
+                        border={isNotMobile ? "1px solid #424961" : "2px solid #424961"}>
+                            <Text fontWeight="600" fontSize={isNotMobile ? "16px" : "11px"} lineHeight={isNotMobile ? "35px" : "46px"}>Read More</Text></Button>
                     </CardFooter>
                 </Card>
-                <Card w="381px" h="554px" border="1px solid #93A2D361" borderRadius="21px">
-                    <CardHeader>
-                        <Image p="27px" src={meal1} alt="meal1"></Image>
+                <Card w={isNotMobile ? "381px" : "271px"} 
+                    h={isNotMobile ? "554px" : "484px"}  
+                    borderRadius="21px" border="1px solid #93A2D361">
+                    <CardHeader px={isNotMobile ? "27px" : "33px"} py={isNotMobile ? "27px" : "40px"}>
+                        <Image src={meal1} alt="meal1"></Image>
                     </CardHeader>
-                    <CardBody mx="43px" mb="27.41px" w="295px" overflow="hidden">
-                        <Heading color="#0E2368" mb="14px" fontSize="21px" fontWeight="700" lineHeight="27px">Grilled Tomatoes at Home</Heading>
-                        <Text fontSize="15px" fontWeight="400" lineHeight="27px">PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...</Text>
+                    <CardBody mb="27.41px" overflow="hidden"
+                    mx={isNotMobile ? "43px": "auto"} 
+                    w={isNotMobile ? "295px" : "236px"}>
+                        <Heading color="#0E2368" fontWeight="700" 
+                            mb={isNotMobile ? "14px": "6px"}
+                            fontSize={isNotMobile ? "21px" : "16px"}
+                            lineHeight={isNotMobile ? "27px" : "35px"}
+                            textAlign={isNotMobile ? "justify" : "center"}
+                            letterSpacing="5%">Grilled Tomatoes at Home</Heading>
+                        <Text fontWeight="400"
+                            px={isNotMobile ? "0px": "20px"}
+                            fontSize={isNotMobile ? "15px" : "12px"} 
+                            lineHeight={isNotMobile ? "27px" : "22px"}
+                            letterSpacing="-2%">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley....</Text>
                     </CardBody>
-                    <CardFooter ml="43px" mb="40px" p="3px, 26px, 3px, 26px" w="295px">
-                        <Button borderRadius="21px" w="131px" h="42px" variant="outline" border="1px solid #424961">Read More</Button>
+                    <CardFooter ml={isNotMobile ? "43px" : "0"} mb="40px" w={isNotMobile ? "295px" : "271px"} px={isNotMobile ? "0" : "76px"}>
+                        <Button variant="outline" 
+                        borderRadius={isNotMobile ? "21px" : "27px"} 
+                        w={isNotMobile ? "131px" : "118px"} 
+                        h={isNotMobile ? "42px" : "26px"} 
+                        border={isNotMobile ? "1px solid #424961" : "2px solid #424961"}>
+                            <Text fontWeight="600" fontSize={isNotMobile ? "16px" : "11px"} lineHeight={isNotMobile ? "35px" : "46px"}>Read More</Text></Button>
                     </CardFooter>
                 </Card>
         
