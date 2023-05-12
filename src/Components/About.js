@@ -15,10 +15,10 @@ const About = () => {
             mt={isNotMobile ? "186px" : "394px"} >
                 <Image display={isNotMobile ? "block" : "none"} src={about} alt="about" w="384px" h="468px"></Image>
                 <Box textAlign={isNotMobile ? "left" : "center"} w={isNotMobile ? "auto" : "275px"}>
-                    <Heading color="#0E2368" fontWeight="600"
+                    <Heading color="#0E2368" fontWeight="600" fontFamily="poppins"
                         fontSize={isNotMobile ? "45px" : "26px"} 
                         lineHeight={isNotMobile ? "27px" : "35px"}>About Us</Heading>
-                    <Text color="#444957" fontWeight="400"
+                    <Text color="#444957" fontWeight="400" fontFamily="opensans"
                         mt={isNotMobile ? "27.41px" : "21px"}  
                         fontSize={isNotMobile ? "15px" : "11px"} 
                         lineHeight={isNotMobile ? "27px" : "21px"}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. t has survived not only five centuries.</Text>
@@ -27,7 +27,7 @@ const About = () => {
                         h={isNotMobile ? "42px" : "25px"} 
                         borderRadius={isNotMobile ? "21px" : "27px"}
                         mt={isNotMobile ? "21px" : "16px"}>
-                            <Text fontSize={isNotMobile ? "16px" : "11px"} lineHeight="36px">Read More</Text>
+                            <Text fontSize={isNotMobile ? "16px" : "11px"} fontFamily="sourcesans" lineHeight="36px">Read More</Text>
                     </Button>
                 </Box>
         </Stack>

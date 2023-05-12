@@ -24,17 +24,17 @@ const Home = () => {
                     mr={isNotMobile ? "41px" : "18px"}  
                     borderRadius={isNotMobile ? "21px" : "27px"}
                     w={isNotMobile ? "122px" : "88px"} >
-                    <Text color="#FFFFFF" fontSize={isNotMobile ? "16px" : "11px"} fontFamily="sans-serif" fontWeight="600" lineHeight="36px">Get In Touch</Text>
+                    <Text color="#FFFFFF" fontSize={isNotMobile ? "16px" : "11px"} fontFamily="sourcesans" fontWeight="600" lineHeight="36px">Get In Touch</Text>
                 </Button>
             </Flex>
                 <Container 
                     mt={isNotMobile ? "111px" : "440px"} 
                     ml={isNotMobile ? "100px" : "auto"} 
                     textAlign={isNotMobile ? "left" : "center"}>
-                    <Heading color="#0E2368" fontWeight="700" fontFamily="sans-serif" 
+                    <Heading color="#0E2368" fontWeight="700" fontFamily="sourcesans" 
                         fontSize={isNotMobile ? "62px" : "38px"}  
                         lineHeight={isNotMobile ? "69px" : "46px"}>Discover The <br/><Text as="b" color="#E23744">Best</Text> Food <br/> and Drinks</Heading>
-                    <Text color="#444957" fontWeight="400" fontFamily="sans-serif" 
+                    <Text color="#444957" fontWeight="400" fontFamily="opensans" 
                         mt={isNotMobile ? "26px": "21px"}
                         fontSize={isNotMobile ? "16.44px" : "11px"} 
                         lineHeight={isNotMobile ? "27.41px" : "18px"}>Naturally made Health Products for the <br/> growth and support of your baby.</Text>
@@ -42,7 +42,7 @@ const Home = () => {
                         borderRadius={isNotMobile ? "34px" : "30px"}
                         p={isNotMobile ? "14px, 34px, 14px, 34px" : "12px, 30px, 12px, 30px"}
                         mt={isNotMobile ? "41px": "28px"}>
-                        <Text color="#FFFFFF" fontFamily="sans-serif" fontWeight="700" 
+                        <Text color="#FFFFFF" fontFamily="opensans" fontWeight="700" 
                             fontSize={isNotMobile ? "18px" : "12px"}
                             lineHeight={isNotMobile ? "36px" : "31.54px"}>Explore Now!</Text>
                     </Button>
