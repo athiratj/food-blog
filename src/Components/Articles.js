@@ -13,15 +13,16 @@ const Articles = () => {
     const [isNotMobile] = useMediaQuery("(min-width:600px)");
 
     return(
-        <Box minW="375px" my={isNotMobile ? "158px" : "132px"} 
+        <Box my={isNotMobile ? "158px" : "132px"} 
             px={isNotMobile ? "108px": "52px"} 
-            h={isNotMobile ? "680px" : "1783"} 
+            h={isNotMobile ? "680px" : "1783px"} 
             textAlign={isNotMobile ? "left" : "center"}>
-            <Heading color="#0E2368" fontWeight="600" fontFamily="sans-serif" letterSpacing="4%" 
+            <Heading color="#0E2368" fontWeight="600" fontFamily="sans-serif" letterSpacing="4%" margin="0 auto"
                 fontSize={isNotMobile ? "56px" : "28px"}
                 lineHeight={isNotMobile ? "42px" : "54px"}
-                w={isNotMobile ? "100%" : "271px"}>Latest Articles</Heading>
-            <SimpleGrid spacingX='41px' spacingY='61px' minChildWidth='271px' w={isNotMobile ? "100%" : "271px"}
+                w={isNotMobile ? "1225px" : "271px"}>Latest Articles</Heading>
+            <SimpleGrid spacingX='41px' spacingY='61px' minChildWidth='271px' margin="0 auto"  
+            w={isNotMobile ? "1225px" : "271px"}
             colums={isNotMobile ? 3 : 1} 
             // columns={{sm: 1, md: 3}} 
             mt={isNotMobile ? "82px": "23px"}>

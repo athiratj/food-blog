@@ -14,7 +14,7 @@ const About = () => {
             spacing={isNotMobile ? '200px':'140px'}
             mt={isNotMobile ? "186px" : "394px"} >
                 <Image display={isNotMobile ? "block" : "none"} src={about} alt="about" w="384px" h="468px"></Image>
-                <Box textAlign={isNotMobile ? "left" : "center"}>
+                <Box textAlign={isNotMobile ? "left" : "center"} w={isNotMobile ? "auto" : "275px"}>
                     <Heading color="#0E2368" fontWeight="600"
                         fontSize={isNotMobile ? "45px" : "26px"} 
                         lineHeight={isNotMobile ? "27px" : "35px"}>About Us</Heading>
