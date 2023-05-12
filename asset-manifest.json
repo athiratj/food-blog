@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/food-blog/static/css/main.a96126f6.css",
-    "main.js": "/food-blog/static/js/main.c204e4d0.js",
+    "main.css": "/food-blog/static/css/main.6e116f48.css",
+    "main.js": "/food-blog/static/js/main.42910cd0.js",
     "static/media/Home-pizza.png": "/food-blog/static/media/Home-pizza.e3a3f59c6b4c8f78a18e.png",
     "static/media/About.png": "/food-blog/static/media/About.f02ecb0f049d18b71620.png",
     "static/media/meal3.png": "/food-blog/static/media/meal3.fde3e79ee49420110104.png",
@@ -22,12 +22,15 @@
     "static/media/roboto-cyrillic-ext-400-normal.woff2": "/food-blog/static/media/roboto-cyrillic-ext-400-normal.804378952da8a10faae2.woff2",
     "static/media/source-sans-pro-latin-400-normal.woff2": "/food-blog/static/media/source-sans-pro-latin-400-normal.c0d191aa7fb798623030.woff2",
     "static/media/open-sans-latin-ext-400-normal.woff2": "/food-blog/static/media/open-sans-latin-ext-400-normal.ccfa20f8de7f73249c39.woff2",
+    "static/media/revicons.eot": "/food-blog/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/food-blog/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/roboto-latin-ext-400-normal.woff2": "/food-blog/static/media/roboto-latin-ext-400-normal.861b791f9de857a6e7bc.woff2",
     "static/media/source-sans-pro-latin-ext-400-normal.woff2": "/food-blog/static/media/source-sans-pro-latin-ext-400-normal.fbd4fe33a443c83e04f1.woff2",
     "static/media/open-sans-cyrillic-400-normal.woff2": "/food-blog/static/media/open-sans-cyrillic-400-normal.5a546777799f438b6bb4.woff2",
     "static/media/roboto-cyrillic-400-normal.woff2": "/food-blog/static/media/roboto-cyrillic-400-normal.71a33b6b50457b2c903a.woff2",
     "static/media/open-sans-greek-400-normal.woff2": "/food-blog/static/media/open-sans-greek-400-normal.3064bf7e87155fcb14a1.woff2",
     "static/media/poppins-latin-400-normal.woff2": "/food-blog/static/media/poppins-latin-400-normal.405055dd680fa1dcdfa2.woff2",
+    "static/media/revicons.woff": "/food-blog/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/open-sans-hebrew-400-normal.woff2": "/food-blog/static/media/open-sans-hebrew-400-normal.daafcec89c2332b84c25.woff2",
     "static/media/source-sans-pro-cyrillic-400-normal.woff2": "/food-blog/static/media/source-sans-pro-cyrillic-400-normal.d1cfd8b7bb2cbe3fabb0.woff2",
     "static/media/open-sans-vietnamese-400-normal.woff2": "/food-blog/static/media/open-sans-vietnamese-400-normal.473f6b09ca8f5658857e.woff2",
@@ -42,11 +45,11 @@
     "static/media/roboto-greek-ext-400-normal.woff2": "/food-blog/static/media/roboto-greek-ext-400-normal.169619821ea93019d1bb.woff2",
     "index.html": "/food-blog/index.html",
     "static/media/Design-pizza.svg": "/food-blog/static/media/Design-pizza.ab7aa321bac997016521e39f73c2e934.svg",
-    "main.a96126f6.css.map": "/food-blog/static/css/main.a96126f6.css.map",
-    "main.c204e4d0.js.map": "/food-blog/static/js/main.c204e4d0.js.map"
+    "main.6e116f48.css.map": "/food-blog/static/css/main.6e116f48.css.map",
+    "main.42910cd0.js.map": "/food-blog/static/js/main.42910cd0.js.map"
   },
   "entrypoints": [
-    "static/css/main.a96126f6.css",
-    "static/js/main.c204e4d0.js"
+    "static/css/main.6e116f48.css",
+    "static/js/main.42910cd0.js"
   ]
 }
