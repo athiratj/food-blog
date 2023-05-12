@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Stack, Image, Container, Heading, Text, Button, useMediaQuery } from '@chakra-ui/react';
+import { Box, Stack, Image, Heading, Text, Button, useMediaQuery } from '@chakra-ui/react';
 import about from '../assets/About.png'
 
 const About = () => {

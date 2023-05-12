@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Image, Container, Heading, Text, Flex, UnorderedList, ListItem, useMediaQuery } from '@chakra-ui/react';
+import { Box, Image, Heading, Text, Flex, UnorderedList, ListItem, useMediaQuery } from '@chakra-ui/react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faInstagram, faTwitter, faFacebookF } from '@fortawesome/free-brands-svg-icons';
 import logo from '../assets/Logo.svg';

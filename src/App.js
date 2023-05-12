@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
 import Home from './Components/Home';
 import About from './Components/About';
-import RecipeCarousel from './Components/RecipeCarousel';
 import Articles from './Components/Articles';
 import Footer from './Components/Footer';
 

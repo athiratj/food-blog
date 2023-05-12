@@ -10,7 +10,7 @@ const Home = () => {
     const[isNotMobile] = useMediaQuery("(min-width:600px)");
 
     return(
-        <Box bg="#FFFFFF" bgImage={`url(${pizza})`} bgPos="right" bgRepeat="no-repeat" 
+        <Box bg="#FFFFFF" bgImage={`url(${pizza})`} bgPos="right" bgRepeat="no-repeat" pos="relative"
             bgSize={isNotMobile ? "50% 100%" : "100% 100%"} 
             h={isNotMobile ? "804px": "413px"} maxW="100vw">
             <Flex justifyContent="space-between">
@@ -47,6 +47,7 @@ const Home = () => {
                             lineHeight={isNotMobile ? "36px" : "31.54px"}>Explore Now!</Text>
                     </Button>
                 </Container>
+            <Box><Image pos="absolute" top={0} right={0} objectFit="cover" boxSize="auto" src={design} alt="vector image"></Image></Box>
         </Box>
 
     );
