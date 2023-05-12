@@ -27,7 +27,7 @@ const About = () => {
                         h={isNotMobile ? "42px" : "25px"} 
                         borderRadius={isNotMobile ? "21px" : "27px"}
                         mt={isNotMobile ? "21px" : "16px"}>
-                            <Text fontSize={isNotMobile ? "16px" : "11px"} lineHeight={isNotMobile ? "36px" : "46px"}>Read More</Text>
+                            <Text fontSize={isNotMobile ? "16px" : "11px"} lineHeight="36px">Read More</Text>
                     </Button>
                 </Box>
         </Stack>

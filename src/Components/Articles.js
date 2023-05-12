@@ -53,7 +53,7 @@ const Articles = () => {
                         w={isNotMobile ? "131px" : "118px"} 
                         h={isNotMobile ? "42px" : "26px"} 
                         border={isNotMobile ? "1px solid #424961" : "2px solid #424961"}>
-                            <Text fontWeight="600" fontSize={isNotMobile ? "16px" : "11px"} lineHeight={isNotMobile ? "35px" : "46px"}>Read More</Text></Button>
+                            <Text fontWeight="600" fontSize={isNotMobile ? "16px" : "11px"} lineHeight="35px">Read More</Text></Button>
                     </CardFooter>
                 </Card>
                 <Card w={isNotMobile ? "381px" : "271px"} 
@@ -83,7 +83,7 @@ const Articles = () => {
                         w={isNotMobile ? "131px" : "118px"} 
                         h={isNotMobile ? "42px" : "26px"} 
                         border={isNotMobile ? "1px solid #424961" : "2px solid #424961"}>
-                            <Text fontWeight="600" fontSize={isNotMobile ? "16px" : "11px"} lineHeight={isNotMobile ? "35px" : "46px"}>Read More</Text></Button>
+                            <Text fontWeight="600" fontSize={isNotMobile ? "16px" : "11px"} lineHeight="35px">Read More</Text></Button>
                     </CardFooter>
                 </Card>
                 <Card w={isNotMobile ? "381px" : "271px"} 
@@ -113,7 +113,7 @@ const Articles = () => {
                         w={isNotMobile ? "131px" : "118px"} 
                         h={isNotMobile ? "42px" : "26px"} 
                         border={isNotMobile ? "1px solid #424961" : "2px solid #424961"}>
-                            <Text fontWeight="600" fontSize={isNotMobile ? "16px" : "11px"} lineHeight={isNotMobile ? "35px" : "46px"}>Read More</Text></Button>
+                            <Text fontWeight="600" fontSize={isNotMobile ? "16px" : "11px"} lineHeight="35px">Read More</Text></Button>
                     </CardFooter>
                 </Card>
         

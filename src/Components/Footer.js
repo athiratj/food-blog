@@ -51,17 +51,20 @@ const Footer = () => {
                 </UnorderedList>
                 <Flex justifyContent="space-between"
                     direction={isNotMobile ? "column" : "column-reverse"} 
-                    gap={isNotMobile ? "100px" : "16.5px"} >
+                    gap={isNotMobile ? "100px" : "16px"} >
                     <Box pl={isNotMobile ? "64px" : 0}>
                         <Heading color="#0E2368" fontSize="19px" fontWeight="600" lineHeight="27px" letterSpacing="3%" mb="11px"
                             display={isNotMobile ? "block" : "none"}>Social Links</Heading>
-                        <Flex justifyContent={isNotMobile ? "space-between" : "center"} color="#0E2368" gap={isNotMobile ? "auto" : "22px"}>
-                            <FontAwesomeIcon size="xl" icon={faInstagram} />
-                            <FontAwesomeIcon size="xl" icon={faTwitter} />
-                            <FontAwesomeIcon size="xl" icon={faFacebookF} />
+                        <Flex 
+                            justifyContent={isNotMobile ? "space-between" : "center"} color="#0E2368" 
+                            gap={isNotMobile ? "auto" : "20px"}>
+                            <FontAwesomeIcon size={isNotMobile ? "xl" : "sm"} icon={faInstagram} />
+                            <FontAwesomeIcon size={isNotMobile ? "xl" : "sm"} icon={faTwitter} />
+                            <FontAwesomeIcon size={isNotMobile ? "xl" : "sm"} icon={faFacebookF} />
                         </Flex>
                     </Box>
-                    <Text alignSelf="center" color="#828B9C" fontSize="15px" fontWeight="400" lineHeight="25px">&copy;  2022 Food Truck Example</Text>
+                    <Text alignSelf="center" color="#828B9C" fontWeight="400"   
+                    fontSize={isNotMobile ? "15px" : "9px"}>&copy;  2022 Food Truck Example</Text>
                 </Flex>
             </Flex>
 
