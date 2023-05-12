@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/food-blog/static/css/main.ac6611c6.css",
+    "main.js": "/food-blog/static/js/main.8cd1d2de.js",
+    "static/media/Home-pizza.png": "/food-blog/static/media/Home-pizza.e3a3f59c6b4c8f78a18e.png",
+    "static/media/About.png": "/food-blog/static/media/About.f02ecb0f049d18b71620.png",
+    "static/media/meal3.png": "/food-blog/static/media/meal3.fde3e79ee49420110104.png",
+    "static/media/meal2.png": "/food-blog/static/media/meal2.5cfa6ff837658db6be07.png",
+    "static/media/meal1.png": "/food-blog/static/media/meal1.dd5f73e34d10382d2472.png",
+    "static/media/meal4.png": "/food-blog/static/media/meal4.f09a7b0e67b3505cbd8f.png",
+    "static/media/meal6.png": "/food-blog/static/media/meal6.e42b0ef16ea1578acfb6.png",
+    "static/media/meal5.png": "/food-blog/static/media/meal5.cdf354912ad77212f930.png",
+    "static/media/source-sans-pro-all-400-normal.woff": "/food-blog/static/media/source-sans-pro-all-400-normal.1882629b5eaf2ec74fbf.woff",
+    "static/media/Logo.svg": "/food-blog/static/media/Logo.4daee81608dd46b5f521633e82226c52.svg",
+    "static/media/source-sans-pro-latin-400-normal.woff2": "/food-blog/static/media/source-sans-pro-latin-400-normal.c0d191aa7fb798623030.woff2",
+    "static/media/source-sans-pro-latin-ext-400-normal.woff2": "/food-blog/static/media/source-sans-pro-latin-ext-400-normal.fbd4fe33a443c83e04f1.woff2",
+    "static/media/source-sans-pro-cyrillic-400-normal.woff2": "/food-blog/static/media/source-sans-pro-cyrillic-400-normal.d1cfd8b7bb2cbe3fabb0.woff2",
+    "static/media/source-sans-pro-greek-400-normal.woff2": "/food-blog/static/media/source-sans-pro-greek-400-normal.9c7d72dcc7a044db07b1.woff2",
+    "static/media/source-sans-pro-greek-ext-400-normal.woff2": "/food-blog/static/media/source-sans-pro-greek-ext-400-normal.1b1cb10170f2616853f0.woff2",
+    "static/media/source-sans-pro-cyrillic-ext-400-normal.woff2": "/food-blog/static/media/source-sans-pro-cyrillic-ext-400-normal.de95c5209ef26bf69ccf.woff2",
+    "static/media/source-sans-pro-vietnamese-400-normal.woff2": "/food-blog/static/media/source-sans-pro-vietnamese-400-normal.e84a4369ad213f658ebb.woff2",
+    "index.html": "/food-blog/index.html",
+    "static/media/Design-pizza.svg": "/food-blog/static/media/Design-pizza.ab7aa321bac997016521e39f73c2e934.svg",
+    "static/media/theme": "/food-blog/static/media/theme.415d57d8223589ecbeb8",
+    "main.ac6611c6.css.map": "/food-blog/static/css/main.ac6611c6.css.map",
+    "main.8cd1d2de.js.map": "/food-blog/static/js/main.8cd1d2de.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac6611c6.css",
+    "static/js/main.8cd1d2de.js"
+  ]
+}
