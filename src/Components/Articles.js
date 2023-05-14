@@ -70,7 +70,7 @@ const Articles = () => {
 
     const returnCard = (recipe, index) => {
         return (
-          <Card
+          <Card m="auto"
             w={isNotMobile ? "381px" : "271px"}
             h={isNotMobile ? "554px" : "484px"}
             borderRadius="21px"
@@ -83,8 +83,8 @@ const Articles = () => {
             >
               <Image src={recipe.imageUrl} alt="meal1"></Image>
             </CardHeader>
-            <CardBody
-              mb="27.41px"
+            <Box
+              mb="28px"
               overflow="hidden"
               mx={isNotMobile ? "43px" : "auto"}
               w={isNotMobile ? "295px" : "236px"}
@@ -111,15 +111,11 @@ const Articles = () => {
               >
                 {recipe.text}
               </Text>
-            </CardBody>
-            <CardFooter
-              ml={isNotMobile ? "43px" : "0"}
-              mb="40px"
-              w={isNotMobile ? "295px" : "271px"}
-              px={isNotMobile ? "0" : "76px"}
-            >
-              <Button
-                variant="outline"
+            </Box>
+            <Button
+                variant="outline" mb="40px"
+                px={isNotMobile ? "0" : "76px"}
+                mx={isNotMobile ? "43px" : "auto"}
                 borderRadius={isNotMobile ? "21px" : "27px"}
                 w={isNotMobile ? "131px" : "118px"}
                 h={isNotMobile ? "42px" : "26px"}
@@ -134,7 +130,7 @@ const Articles = () => {
                   Read More
                 </Text>
               </Button>
-            </CardFooter>
+
           </Card>
         );
       };
@@ -214,5 +210,3 @@ const CustomButtons = ({ isNotMobile, next, previous, goToSlide, ...rest }) => {
       </Flex>
     );
   };
-
-    

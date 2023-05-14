@@ -10,7 +10,7 @@ const Home = () => {
     const[isNotMobile] = useMediaQuery("(min-width:600px)");
 
     return(
-        <Box bg="#FFFFFF" bgImage={`url(${pizza})`} bgPos="right" bgRepeat="no-repeat" pos="relative"
+        <Box bg="#FFFFFF" bgImage={`url(${pizza})`} bgPos="top right" bgRepeat="no-repeat" 
             bgSize={isNotMobile ? "50% 100%" : "100% 100%"} 
             h={isNotMobile ? "804px": "413px"} maxW="100vw">
             <Flex justifyContent="space-between">
@@ -18,7 +18,7 @@ const Home = () => {
                     <Image w="107px" h="83px" src={logo} alt='logo' display={isNotMobile ? "block" : "none"}/>
                 </Box>
                 <Spacer/>
-                <Button variant="outline" border="1px solid #FFFFFF"
+                <Button variant="outline" border="1px solid #FFFFFF" zIndex="2"
                     h={isNotMobile ? "42px" : "31px"}
                     mt={isNotMobile ? "32px" : "18px"} 
                     mr={isNotMobile ? "41px" : "18px"}  
@@ -26,6 +26,7 @@ const Home = () => {
                     w={isNotMobile ? "122px" : "88px"} >
                     <Text color="#FFFFFF" fontSize={isNotMobile ? "16px" : "11px"} fontFamily="sourcesans" fontWeight="600" lineHeight="36px">Get In Touch</Text>
                 </Button>
+                <Image pos="absolute" top={isNotMobile ? "0": "-3px"} right={0} objectFit="cover" w={isNotMobile ? "51%" : "100%"} zIndex="1" src={design} alt="vector image"></Image>
             </Flex>
                 <Container 
                     mt={isNotMobile ? "111px" : "440px"} 
@@ -47,7 +48,6 @@ const Home = () => {
                             lineHeight={isNotMobile ? "36px" : "31.54px"}>Explore Now!</Text>
                     </Button>
                 </Container>
-            <Box><Image pos="absolute" top={0} right={0} objectFit="cover" boxSize="auto" src={design} alt="vector image"></Image></Box>
         </Box>
 
     );
