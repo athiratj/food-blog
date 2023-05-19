@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/food-blog/static/css/main.6e116f48.css",
-    "main.js": "/food-blog/static/js/main.42910cd0.js",
+    "main.js": "/food-blog/static/js/main.f4f5bc91.js",
     "static/media/Home-pizza.png": "/food-blog/static/media/Home-pizza.e3a3f59c6b4c8f78a18e.png",
     "static/media/About.png": "/food-blog/static/media/About.f02ecb0f049d18b71620.png",
     "static/media/meal3.png": "/food-blog/static/media/meal3.fde3e79ee49420110104.png",
@@ -46,10 +46,10 @@
     "index.html": "/food-blog/index.html",
     "static/media/Design-pizza.svg": "/food-blog/static/media/Design-pizza.ab7aa321bac997016521e39f73c2e934.svg",
     "main.6e116f48.css.map": "/food-blog/static/css/main.6e116f48.css.map",
-    "main.42910cd0.js.map": "/food-blog/static/js/main.42910cd0.js.map"
+    "main.f4f5bc91.js.map": "/food-blog/static/js/main.f4f5bc91.js.map"
   },
   "entrypoints": [
     "static/css/main.6e116f48.css",
-    "static/js/main.42910cd0.js"
+    "static/js/main.f4f5bc91.js"
   ]
 }
