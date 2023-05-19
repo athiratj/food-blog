@@ -1,4 +1,4 @@
-import { Flex, Box, Card, CardHeader, CardBody, CardFooter, Image, Text, Button, Heading, useMediaQuery } from "@chakra-ui/react";
+import { Flex, Box, Card, CardHeader, Image, Text, Button, Heading, useMediaQuery } from "@chakra-ui/react";
 import React, { useRef } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
@@ -84,7 +84,7 @@ const Articles = () => {
               <Image src={recipe.imageUrl} alt="meal1"></Image>
             </CardHeader>
             <Box
-              mb="28px"
+              mb="40px"
               overflow="hidden"
               mx={isNotMobile ? "43px" : "auto"}
               w={isNotMobile ? "295px" : "236px"}
